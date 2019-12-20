@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+    <meta charset="utf-8" />
+    <title>TSObeliskSimulator</title>
+    <link rel="stylesheet" href="App.css" type="text/css" />
+    <script src="Scripts/jquery-2.1.3.min.js"></script>
+    <script src="Scripts/FileSaver.min.js"></script>
+    <script src="Scripts/html2canvas.min.js"></script>
+    <script src="App.js"></script>
+</head>
+<body>
+
+    <div id="Obesim_Root" style="position:relative; background-color: lightsteelblue; width: 800px; height: 600px;">
+        <div id="PanelLeft" style="width: 512px; height: 600px;">
+            <canvas id="CanvasMap" style="background-color: navy; width: 512px; height: 512px; cursor:none;"></canvas>
+            <div id="PanelMapSelect" style="position:relative; width: 512px; height: 50px; background-color: white;">
+                <div style="width: 100px; font-size: 18px;">ＭＡＰ</div>
+                <select id="ComboMap" size="1" style="position: absolute; top: 0px; left: 120px;"></select>
+                <div id="PanelInfo" style="position: absolute; top: 32px; width: 512px; height: 48px; background-color: white;">
+                    <div id="TextCursorPos" style="width: 170px; font-size: 16px;">x:000 y:000</div>
+                    <div id="TextCastleDistance" style="position: absolute; top:0px; left:170px; width: 170px; font-size: 16px;">Castle距離 000.0</div>
+                    <div id="TextReserved" style="position: absolute; top:24px; left:170px; width: 170px; font-size: 16px;"> </div>
+                    <div id="TextAtkTerritory" style="position: absolute; top:0px; left:340px; width: 170px; font-size: 16px;">攻撃支配率 0.00%</div>
+                    <div id="TextDefTerritory" style="position: absolute; top:24px; left:340px; width: 170px; font-size: 16px;">攻撃支配率 0.00%</div>
+                </div>
+            </div>
+        </div>
+        <div id="PanelRight" style="position:absolute; left:514px; top:2px; width: 284px; height: 600px;">
+            <div id="TextTitle" style="position:absolute; width: 280px; height:50px ; font-size: 18px; font-weight:bold; background-color: white;">TSObeliskSimulator<br /> ver.20150515</div>
+            <div id="PanelRadioButton" style="position:absolute; top:52px; width: 284px; height: 70px;">
+                <div id="ButtonBuild1" class="tso-button" value="1" style="left:  0px; top:  0px;   width:34px; height:34px; background-image: url(image/button/atk_castle.png);"> </div>
+                <div id="ButtonBuild2" class="tso-button" value="2" style="left: 35px; top:  0px;   width:34px; height:34px; background-image: url(image/button/atk_obelisk.png);"> </div>
+                <div id="ButtonBuild3" class="tso-button" value="3" style="left: 70px; top:  0px;   width:34px; height:34px; background-image: url(image/button/atk_eclipse.png);"> </div>
+                <div id="ButtonBuild4" class="tso-button" value="4" style="left:105px; top:  0px;   width:34px; height:34px; background-image: url(image/button/atk_arrowtower.png);"> </div>
+                <div id="ButtonBuild5" class="tso-button" value="5" style="left:140px; top:  0px;   width:34px; height:34px; background-image: url(image/button/atk_gateofhades.png);"> </div>
+                <div id="ButtonBuild6" class="tso-button" value="6" style="left:175px; top:  0px;   width:34px; height:34px; background-image: url(image/button/atk_warcraft.png);"> </div>
+                <div id="ButtonBuild7" class="tso-button" value="7" style="left:210px; top:  0px;   width:34px; height:34px; background-image: url(image/button/atk_bullwork.png);"> </div>
+                <div id="ButtonBuild8" class="tso-button" value="8" style="left:245px; top:  0px;   width:34px; height:34px; background-image: url(image/button/crystal.png);"> </div>
+                <div id="ButtonBuild9" class="tso-button" value="9" style="left:  0px; top: 35px;   width:34px; height:34px; background-image: url(image/button/def_castle.png);"> </div>
+                <div id="ButtonBuild10" class="tso-button" value="10" style="left: 35px; top: 35px; width:34px; height:34px; background-image: url(image/button/def_obelisk.png);"> </div>
+                <div id="ButtonBuild11" class="tso-button" value="11" style="left: 70px; top: 35px; width:34px; height:34px; background-image: url(image/button/def_eclipse.png);"> </div>
+                <div id="ButtonBuild12" class="tso-button" value="12" style="left:105px; top: 35px; width:34px; height:34px; background-image: url(image/button/def_arrowtower.png);"> </div>
+                <div id="ButtonBuild13" class="tso-button" value="13" style="left:140px; top: 35px; width:34px; height:34px; background-image: url(image/button/def_gateofhades.png);"> </div>
+                <div id="ButtonBuild14" class="tso-button" value="14" style="left:175px; top: 35px; width:34px; height:34px; background-image: url(image/button/def_warcraft.png);"> </div>
+                <div id="ButtonBuild15" class="tso-button" value="15" style="left:210px; top: 35px; width:34px; height:34px; background-image: url(image/button/def_bullwork.png);"> </div>
+                <div id="ButtonBuild16" class="tso-button" value="16" style="left:245px; top: 35px; width:34px; height:34px; background-image: url(image/button/delete.png);"> </div>
+            </div>
+            <div style="position:absolute; top: 128px; width: 280px; height:20px ; font-size: 16px; font-weight:bold;">【シミュ結果URL】</div>
+            <textarea id="TextURL" style="position:absolute; top: 148px; width: 280px; height:174px ; font-size: 12px; background-color: white; word-break: break-all;"> </textarea>
+            <div style="position:absolute; top: 330px; width: 280px; height:20px ; font-size: 16px; font-weight:bold;">【キープ設置可能距離】</div>
+            <div id="SliderKeepSetDistance" class="tso-slider" value="128" min="10" max="255" style="top: 350px; width: 250px; height: 30px;"> </div>
+            <div id="TextKeepSetDistance" style="position:absolute; left:256px; top: 350px; width: 24px; height:30px ; font-size: 14px;">128</div>
+            <div id="ButtonSavePicture" class="tso-button" style="top: 388px; width:100px; height:34px;"><div style="position:absolute; top:50%; margin-top: -0.5em; text-align: center;">画像へ保存</div></div>
+        </div>
+    </div>
+
+	<br/><br/>	
+	Silverlightは、もう死んだ。しがみついていても仕方がない。<br>
+	<br/><br/>
+
+</body>
+</html>
