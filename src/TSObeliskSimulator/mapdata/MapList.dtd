@@ -1,0 +1,14 @@
+﻿<!ELEMENT MapList (Map+)>
+<!ELEMENT Map (DefCastle?, Crystal?)>
+<!ATTLIST Map
+  MapID           ID    #REQUIRED    
+  Name            CDATA #REQUIRED
+  ImageUrl        CDATA #REQUIRED
+  KeepSetDistance CDATA #IMPLIED
+>
+<!ELEMENT ImageUrl (#PCDATA)>
+<!ELEMENT DefCastle (Position)>
+<!ELEMENT Crystal (Position+)>
+<!ELEMENT Position EMPTY>
+<!ATTLIST Position X CDATA #REQUIRED>
+<!ATTLIST Position Y CDATA #REQUIRED>

@@ -1,0 +1,38 @@
+﻿body {
+    font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+.tso-text{
+    position: absolute;
+}
+
+.tso-button {
+    position: absolute;
+    border-top: 2px solid #000;  
+    border-right: 2px solid #000;  
+    border-bottom: 2px solid #000;  
+    border-left: 2px solid #000;
+    border-radius: 4px;
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-weight: bold;
+    color: black;
+}
+
+.tso-slider {
+    position: absolute;
+    border-top: 2px solid #fff;  
+    border-right: 2px solid #fff;  
+    border-bottom: 2px solid #fff;  
+    border-left: 2px solid #fff;
+    background-color: #000;
+    cursor: default;
+}
+
+.tso-slider-gage {
+    position: absolute;
+    font-weight: bold;
+    background-color: #3ca0f6;
+    cursor: default;
+}

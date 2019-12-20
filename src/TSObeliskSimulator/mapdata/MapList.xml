@@ -1,0 +1,909 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE MapList SYSTEM "MapList.dtd">
+<MapList>
+
+  <Map MapID="M010" Name="三字" ImageUrl="mapdata/image/3.jpg" KeepSetDistance ="144">
+    <DefCastle>
+      <Position X="138" Y="201" />
+    </DefCastle>
+    <Crystal>
+      <Position X="24" Y="38" />
+      <Position X="128" Y="62" />
+      <Position X="128" Y="128" />
+      <Position X="110" Y="196" />
+      <Position X="232" Y="226" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M020" Name="三連隕石" ImageUrl="mapdata/image/3inseki.jpg">
+    <DefCastle>
+      <Position X="152" Y="77" />
+    </DefCastle>
+    <Crystal>
+      <Position X="77" Y="67" />
+      <Position X="146" Y="86" />
+      <Position X="125" Y="122" />
+      <Position X="126" Y="142" />
+      <Position X="99" Y="181" />
+      <Position X="200" Y="199" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M030" Name="Ｅ字（E3城）" ImageUrl="mapdata/image/e.jpg">
+    <DefCastle>
+      <Position X="70" Y="128" />
+    </DefCastle>
+    <Crystal>
+      <Position X="78" Y="128" />
+      <Position X="50" Y="46" />
+      <Position X="142" Y="58" />
+      <Position X="193" Y="127" />
+      <Position X="164" Y="160" />
+      <Position X="86" Y="167" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M031" Name="Ｅ字（G5城）" ImageUrl="mapdata/image/e.jpg">
+    <DefCastle>
+      <Position X="139" Y="192" />
+    </DefCastle>
+    <Crystal>
+      <Position X="63" Y="65" />
+      <Position X="143" Y="59" />
+      <Position X="94" Y="128" />
+      <Position X="203" Y="127" />
+      <Position X="48" Y="190" />
+      <Position X="149" Y="201" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M040" Name="φ字（C6城）" ImageUrl="mapdata/image/fai.jpg">
+    <DefCastle>
+      <Position X="178" Y="79" />
+    </DefCastle>
+    <Crystal>
+      <Position X="59" Y="67" />
+      <Position X="139" Y="77" />
+      <Position X="168" Y="84" />
+      <Position X="128" Y="136" />
+      <Position X="70" Y="175" />
+      <Position X="115" Y="200" />
+      <Position X="195" Y="214" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M041" Name="φ字（F6城）" ImageUrl="mapdata/image/fai.jpg">
+    <DefCastle>
+      <Position X="166" Y="182" />
+    </DefCastle>
+    <Crystal>
+      <Position X="181" Y="190" />
+      <Position X="195" Y="214" />
+      <Position X="54" Y="215" />
+      <Position X="128" Y="136" />
+      <Position X="59" Y="67" />
+      <Position X="27" Y="89" />
+      <Position X="213" Y="34" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M050" Name="群島1" ImageUrl="mapdata/image/guntou.jpg">
+    <DefCastle>
+      <Position X="92" Y="60" />
+    </DefCastle>
+    <Crystal>
+      <Position X="84" Y="75" />
+      <Position X="105" Y="101" />
+      <Position X="59" Y="180" />
+      <Position X="193" Y="44" />
+      <Position X="157" Y="154" />
+      <Position X="180" Y="202" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M060" Name="廃街" ImageUrl="mapdata/image/haimachi.png">
+    <DefCastle>
+      <Position X="156" Y="157" />
+    </DefCastle>
+    <Crystal>
+      <Position X="80" Y="82" />
+      <Position X="137" Y="81" />
+      <Position X="217" Y="63" />
+      <Position X="47" Y="128" />
+      <Position X="157" Y="134" />
+      <Position X="191" Y="204" />
+      <Position X="110" Y="201" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M070" Name="人字1" ImageUrl="mapdata/image/hito1.jpg" KeepSetDistance="160">
+    <DefCastle>
+      <Position X="70" Y="166" />
+    </DefCastle>
+    <Crystal>
+      <Position X="75" Y="176" />
+      <Position X="125" Y="194" />
+      <Position X="131" Y="149" />
+      <Position X="152" Y="115" />
+      <Position X="135" Y="50" />
+      <Position X="184" Y="58" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M080" Name="瓢箪1" ImageUrl="mapdata/image/hyoutan.jpg">
+    <DefCastle>
+      <Position X="178" Y="79" />
+    </DefCastle>
+    <Crystal>
+      <Position X="84" Y="37" />
+      <Position X="64" Y="76" />
+      <Position X="209" Y="60" />
+      <Position X="134" Y="122" />
+      <Position X="61" Y="183" />
+      <Position X="183" Y="209" />
+      <Position X="218" Y="185" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M090" Name="街道（B6城）" ImageUrl="mapdata/image/kaidou.jpg">
+    <DefCastle>
+      <Position X="190" Y="63" />
+    </DefCastle>
+    <Crystal>
+      <Position X="70" Y="73" />
+      <Position X="131" Y="67" />
+      <Position X="182" Y="51" />
+      <Position X="166" Y="120" />
+      <Position X="102" Y="154" />
+      <Position X="22" Y="202" />
+      <Position X="159" Y="151" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M091" Name="街道（F3城）" ImageUrl="mapdata/image/kaidou.jpg">
+    <DefCastle>
+      <Position X="84" Y="172" />
+    </DefCastle>
+    <Crystal>
+      <Position X="73" Y="179" />
+      <Position X="53" Y="146" />
+      <Position X="69" Y="69" />
+      <Position X="129" Y="126" />
+      <Position X="178" Y="83" />
+      <Position X="205" Y="124" />
+      <Position X="198" Y="191" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M092" Name="街道（B5城）" ImageUrl="mapdata/image/kaidou.jpg" KeepSetDistance="152">
+    <DefCastle>
+      <Position X="130" Y="56" />
+    </DefCastle>
+    <Crystal>
+      <Position X="131" Y="67" />
+      <Position X="182" Y="51" />
+      <Position X="205" Y="124" />
+      <Position X="205" Y="196" />
+      <Position X="124" Y="217" />
+      <Position X="22" Y="202" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M093" Name="街道（C3城）" ImageUrl="mapdata/image/kaidou.jpg">
+    <DefCastle>
+      <Position X="75" Y="80" />
+    </DefCastle>
+    <Crystal>
+      <Position X="61" Y="56" />
+      <Position X="185" Y="63" />
+      <Position X="210" Y="115" />
+      <Position X="90" Y="195" />
+      <Position X="34" Y="209" />
+      <Position X="185" Y="190" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M100" Name="渓谷（F6城）" ImageUrl="mapdata/image/keikoku.jpg">
+    <DefCastle>
+      <Position X="171" Y="167" />
+    </DefCastle>
+    <Crystal>
+      <Position X="50" Y="66" />
+      <Position X="121" Y="63" />
+      <Position X="188" Y="43" />
+      <Position X="55" Y="213" />
+      <Position X="163" Y="166" />
+      <Position X="210" Y="202" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M101" Name="渓谷（C4城）" ImageUrl="mapdata/image/keikoku.jpg" KeepSetDistance="126">
+    <DefCastle>
+      <Position X="103" Y="68" />
+    </DefCastle>
+    <Crystal>
+      <Position X="67" Y="59" />
+      <Position X="113" Y="81" />
+      <Position X="215" Y="71" />
+      <Position X="178" Y="141" />
+      <Position X="191" Y="172" />
+      <Position X="122" Y="198" />
+      <Position X="70" Y="173" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M110" Name="新始まり" ImageUrl="mapdata/image/new_hajimari.jpg">
+    <DefCastle>
+      <Position X="165" Y="167" />
+    </DefCastle>
+    <Crystal>
+      <Position X="150" Y="160" />
+      <Position X="198" Y="191" />
+      <Position X="41" Y="215" />
+      <Position X="56" Y="134" />
+      <Position X="71" Y="45" />
+      <Position X="170" Y="51" />
+      <Position X="202" Y="11" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M120" Name="新中央島（D7城）" ImageUrl="mapdata/image/new_cyuoujima.jpg">
+    <DefCastle>
+      <Position X="197" Y="108" />
+    </DefCastle>
+    <Crystal>
+      <Position X="197" Y="123" />
+      <Position X="148" Y="146" />
+      <Position X="126" Y="196" />
+      <Position X="140" Y="44" />
+      <Position X="119" Y="89" />
+      <Position X="83" Y="127" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M121" Name="新中央島（C6城）" ImageUrl="mapdata/image/new_cyuoujima.jpg">
+    <DefCastle>
+      <Position X="167" Y="72" />
+    </DefCastle>
+    <Crystal>
+      <Position X="142" Y="41" />
+      <Position X="210" Y="52" />
+      <Position X="210" Y="102" />
+      <Position X="49" Y="137" />
+      <Position X="53" Y="191" />
+      <Position X="109" Y="212" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M130" Name="新古戦場" ImageUrl="mapdata/image/new_kosenjyou.jpg">
+    <DefCastle>
+      <Position X="195" Y="131" />
+    </DefCastle>
+    <Crystal>
+      <Position X="187" Y="136" />
+      <Position X="141" Y="48" />
+      <Position X="113" Y="84" />
+      <Position X="56" Y="135" />
+      <Position X="125" Y="159" />
+      <Position X="98" Y="218" />
+    </Crystal>
+  </Map>
+ 
+  <Map MapID="M140" Name="新乙字" ImageUrl="mapdata/image/new_otu.jpg">
+    <DefCastle>
+      <Position X="107" Y="173" />
+    </DefCastle>
+    <Crystal>
+      <Position X="74" Y="69" />
+      <Position X="157" Y="79" />
+      <Position X="176" Y="58" />
+      <Position X="120" Y="120" />
+      <Position X="149" Y="107" />
+      <Position X="119" Y="169" />
+      <Position X="176" Y="177" />
+      <Position X="82" Y="196" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M150" Name="Ｏ字" ImageUrl="mapdata/image/o.jpg">
+    <DefCastle>
+      <Position X="159" Y="67" />
+    </DefCastle>
+    <Crystal>
+      <Position X="149" Y="75" />
+      <Position X="69" Y="97" />
+      <Position X="143" Y="119" />
+      <Position X="192" Y="110" />
+      <Position X="76" Y="156" />
+      <Position X="180" Y="160" />
+      <Position X="127" Y="181" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M160" Name="旧中央島" ImageUrl="mapdata/image/old_cyuoujima.jpg">
+    <DefCastle>
+      <Position X="197" Y="108" />
+    </DefCastle>
+    <Crystal>
+      <Position X="197" Y="123" />
+      <Position X="193" Y="39" />
+      <Position X="120" Y="42" />
+      <Position X="151" Y="97" />
+      <Position X="117" Y="135" />
+      <Position X="58" Y="118" />
+      <Position X="150" Y="213" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M170" Name="旧古戦場" ImageUrl="mapdata/image/old_kosenjyou.jpg">
+    <DefCastle>
+      <Position X="133" Y="61" />
+    </DefCastle>
+    <Crystal>
+      <Position X="110" Y="57" />
+      <Position X="188" Y="25" />
+      <Position X="225" Y="74" />
+      <Position X="88" Y="220" />
+      <Position X="38" Y="217" />
+      <Position X="26" Y="176" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M180" Name="旧乙字" ImageUrl="mapdata/image/old_otu.jpg">
+    <DefCastle>
+      <Position X="135" Y="65" />
+    </DefCastle>
+    <Crystal>
+      <Position X="68" Y="65" />
+      <Position X="147" Y="71" />
+      <Position X="223" Y="31" />
+      <Position X="174" Y="121" />
+      <Position X="23" Y="157" />
+      <Position X="112" Y="176" />
+      <Position X="189" Y="205" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M190" Name="山岳" ImageUrl="mapdata/image/sangaku.jpg">
+    <DefCastle>
+      <Position X="65" Y="96" />
+    </DefCastle>
+    <Crystal>
+      <Position X="65" Y="104" />
+      <Position X="123" Y="135" />
+      <Position X="77" Y="207" />
+      <Position X="31" Y="197" />
+      <Position X="190" Y="136" />
+      <Position X="216" Y="73" />
+      <Position X="177" Y="42" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M200" Name="城跡（ザーク）" ImageUrl="mapdata/image/siroato.jpg" KeepSetDistance="148">
+    <DefCastle>
+      <Position X="186" Y="180" />
+    </DefCastle>
+    <Crystal>
+      <Position X="176" Y="193" />
+      <Position X="80" Y="156" />
+      <Position X="32" Y="141" />
+      <Position X="180" Y="96" />
+      <Position X="210" Y="47" />
+      <Position X="93" Y="49" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M201" Name="城跡（ラナス）" ImageUrl="mapdata/image/siroato.jpg" KeepSetDistance="156">
+    <DefCastle>
+      <Position X="186" Y="180" />
+    </DefCastle>
+    <Crystal>
+      <Position X="176" Y="193" />
+      <Position X="80" Y="156" />
+      <Position X="32" Y="141" />
+      <Position X="180" Y="96" />
+      <Position X="210" Y="47" />
+      <Position X="93" Y="49" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M210" Name="湿地（F6城）" ImageUrl="mapdata/image/sitti.jpg">
+    <DefCastle>
+      <Position X="171" Y="178" />
+    </DefCastle>
+    <Crystal>
+      <Position X="179" Y="186" />
+      <Position X="102" Y="180" />
+      <Position X="49" Y="162" />
+      <Position X="131" Y="131" />
+      <Position X="208" Y="97" />
+      <Position X="152" Y="77" />
+      <Position X="48" Y="64" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M211" Name="湿地（C5城）" ImageUrl="mapdata/image/sitti.jpg">
+    <DefCastle>
+      <Position X="152" Y="77" />
+    </DefCastle>
+    <Crystal>
+      <Position X="148" Y="87" />
+      <Position X="74" Y="69" />
+      <Position X="209" Y="96" />
+      <Position X="117" Y="137" />
+      <Position X="54" Y="165" />
+      <Position X="157" Y="195" />
+      <Position X="213" Y="231" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M212" Name="湿地（F6城-北東寄り）" ImageUrl="mapdata/image/sitti.jpg">
+    <DefCastle>
+      <Position X="191" Y="162" />
+    </DefCastle>
+    <Crystal>
+      <Position X="112" Y="215" />
+      <Position X="42" Y="173" />
+      <Position X="124" Y="120" />
+      <Position X="208" Y="96" />
+      <Position X="55" Y="99" />
+      <Position X="111" Y="64" />
+      <Position X="195" Y="152" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M220" Name="水源（B5城）" ImageUrl="mapdata/image/suigen.jpg">
+    <DefCastle>
+      <Position X="132" Y="52" />
+    </DefCastle>
+    <Crystal>
+      <Position X="51" Y="101" />
+      <Position X="128" Y="105" />
+      <Position X="128" Y="138" />
+      <Position X="199" Y="89" />
+      <Position X="93" Y="163" />
+      <Position X="199" Y="149" />
+      <Position X="123" Y="64" />
+    </Crystal>
+  </Map>
+
+
+  <Map MapID="M221" Name="水源（D2城）" ImageUrl="mapdata/image/suigen.jpg" KeepSetDistance="152">
+    <DefCastle>
+      <Position X="50" Y="102" />
+    </DefCastle>
+    <Crystal>
+      <Position X="37" Y="45" />
+      <Position X="79" Y="72" />
+      <Position X="195" Y="98" />
+      <Position X="128" Y="138" />
+      <Position X="58" Y="170" />
+      <Position X="142" Y="208" />
+      <Position X="221" Y="166" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M230" Name="囚字" ImageUrl="mapdata/image/syu.jpg">
+    <DefCastle>
+      <Position X="92" Y="179" />
+    </DefCastle>
+    <Crystal>
+      <Position X="104" Y="155" />
+      <Position X="50" Y="108" />
+      <Position X="86" Y="38" />
+      <Position X="159" Y="81" />
+      <Position X="211" Y="143" />
+      <Position X="149" Y="224" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M240" Name="棚田（F4城）" ImageUrl="mapdata/image/tanada.jpg">
+    <DefCastle>
+      <Position X="105" Y="175" />
+    </DefCastle>
+    <Crystal>
+      <Position X="226" Y="74" />
+      <Position X="113" Y="170" />
+      <Position X="55" Y="194" />
+      <Position X="114" Y="99" />
+      <Position X="168" Y="132" />
+      <Position X="206" Y="209" />
+      <Position X="178" Y="22" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M241" Name="棚田（E6城）" ImageUrl="mapdata/image/tanada.jpg" KeepSetDistance="124">
+    <DefCastle>
+      <Position X="183" Y="155" />
+    </DefCastle>
+    <Crystal>
+      <Position X="55" Y="194" />
+      <Position X="113" Y="170" />
+      <Position X="206" Y="210" />
+      <Position X="168" Y="132" />
+      <Position X="114" Y="99" />
+      <Position X="226" Y="74" />
+      <Position X="178" Y="22" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M250" Name="渦巻" ImageUrl="mapdata/image/uzumaki.jpg">
+    <DefCastle>
+      <Position X="194" Y="163" />
+    </DefCastle>
+    <Crystal>
+      <Position X="66" Y="70" />
+      <Position X="104" Y="102" />
+      <Position X="136" Y="128" />
+      <Position X="207" Y="88" />
+      <Position X="61" Y="168" />
+      <Position X="154" Y="201" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M260" Name="Ｖ字（E3城）" ImageUrl="mapdata/image/v.jpg">
+    <DefCastle>
+      <Position X="71" Y="152" />
+    </DefCastle>
+    <Crystal>
+      <Position X="124" Y="26" />
+      <Position X="71" Y="144" />
+      <Position X="40" Y="85" />
+      <Position X="220" Y="86" />
+      <Position X="56" Y="195" />
+      <Position X="176" Y="184" />
+      <Position X="223" Y="199" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M261" Name="Ｖ字（G4城）" ImageUrl="mapdata/image/v.jpg">
+    <DefCastle>
+      <Position X="109" Y="213" />
+    </DefCastle>
+    <Crystal>
+      <Position X="114" Y="191" />
+      <Position X="186" Y="189" />
+      <Position X="129" Y="162" />
+      <Position X="209" Y="93" />
+      <Position X="90" Y="63" />
+      <Position X="125" Y="27" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M270" Name="Ｘ字1（E6城）" ImageUrl="mapdata/image/x1.jpg">
+    <DefCastle>
+      <Position X="176" Y="151" />
+    </DefCastle>
+    <Crystal>
+      <Position X="63" Y="64" />
+      <Position X="190" Y="42" />
+      <Position X="208" Y="48" />
+      <Position X="137" Y="124" />
+      <Position X="55" Y="195" />
+      <Position X="71" Y="204" />
+      <Position X="207" Y="186" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M271" Name="Ｘ字1（F3城）" ImageUrl="mapdata/image/x1.jpg">
+    <DefCastle>
+      <Position X="94" Y="173" />
+    </DefCastle>
+    <Crystal>
+      <Position X="69" Y="62" />
+      <Position X="136" Y="46" />
+      <Position X="170" Y="50" />
+      <Position X="134" Y="128" />
+      <Position X="91" Y="186" />
+      <Position X="131" Y="199" />
+      <Position X="203" Y="184" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M280" Name="架橋1" ImageUrl="mapdata/image/kakehasi1.jpg">
+    <DefCastle>
+      <Position X="154" Y="179" />
+    </DefCastle>
+    <Crystal>
+      <Position X="164" Y="182" />
+      <Position X="78" Y="221" />
+      <Position X="24" Y="128" />
+      <Position X="128" Y="120" />
+      <Position X="219" Y="111" />
+      <Position X="177" Y="24" />
+      <Position X="78" Y="48" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M290" Name="雪原" ImageUrl="mapdata/image/setugen.jpg" KeepSetDistance="70">
+    <DefCastle>
+      <Position X="110" Y="154" />
+    </DefCastle>
+    <Crystal>
+      <Position X="86" Y="56" />
+      <Position X="136" Y="60" />
+      <Position X="180" Y="81" />
+      <Position X="75" Y="161" />
+      <Position X="118" Y="177" />
+      <Position X="163" Y="165" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M300" Name="箱庭" ImageUrl="mapdata/image/hakoniwa.jpg">
+    <DefCastle>
+      <Position X="187" Y="136" />
+    </DefCastle>
+    <Crystal>
+      <Position X="138" Y="77" />
+      <Position X="57" Y="103" />
+      <Position X="92" Y="131" />
+      <Position X="155" Y="107" />
+      <Position X="147" Y="167" />
+      <Position X="197" Y="134" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M310" Name="星型" ImageUrl="mapdata/image/hosi.jpg">
+    <DefCastle>
+      <Position X="190" Y="137" />
+    </DefCastle>
+    <Crystal>
+      <Position X="55" Y="96" />
+      <Position X="104" Y="47" />
+      <Position X="188" Y="65" />
+      <Position X="180" Y="133" />
+      <Position X="118" Y="141" />
+      <Position X="64" Y="192" />
+      <Position X="156" Y="208" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M320" Name="市街地1" ImageUrl="mapdata/image/sigaichi1.jpg" KeepSetDistance="142">
+    <DefCastle>
+      <Position X="136" Y="53" />
+    </DefCastle>
+    <Crystal>
+      <Position X="43" Y="163" />
+      <Position X="78" Y="87" />
+      <Position X="135" Y="64" />
+      <Position X="194" Y="47" />
+      <Position X="158" Y="124" />
+      <Position X="85" Y="205" />
+      <Position X="124" Y="188" />
+      <Position X="206" Y="171" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M330" Name="市街地2" ImageUrl="mapdata/image/sigaichi2.jpg" KeepSetDistance="132">
+    <DefCastle>
+      <Position X="55" Y="115" />
+    </DefCastle>
+    <Crystal>
+      <Position X="65" Y="119" />
+      <Position X="73" Y="80" />
+      <Position X="130" Y="65" />
+      <Position X="196" Y="68" />
+      <Position X="170" Y="113" />
+      <Position X="133" Y="167" />
+      <Position X="73" Y="210" />
+      <Position X="185" Y="198" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M340" Name="Ｘ字2（F4城）" ImageUrl="mapdata/image/x2.jpg">
+    <DefCastle>
+      <Position X="98" Y="186" />
+    </DefCastle>
+    <Crystal>
+      <Position X="67" Y="197" />
+      <Position X="82" Y="165" />
+      <Position X="205" Y="184" />
+      <Position X="69" Y="63" />
+      <Position X="159" Y="44" />
+      <Position X="201" Y="47" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M341" Name="Ｘ字2（B7城）" ImageUrl="mapdata/image/x2.jpg" KeepSetDistance="192">
+    <DefCastle>
+      <Position X="199" Y="54" />
+    </DefCastle>
+    <Crystal>
+      <Position X="67" Y="58" />
+      <Position X="207" Y="52" />
+      <Position X="96" Y="91" />
+      <Position X="177" Y="156" />
+      <Position X="69" Y="206" />
+      <Position X="205" Y="182" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M350" Name="８字" ImageUrl="mapdata/image/8.jpg" KeepSetDistance="138">
+    <DefCastle>
+      <Position X="143" Y="56" />
+    </DefCastle>
+    <Crystal>
+      <Position X="44" Y="42" />
+      <Position X="35" Y="197" />
+      <Position X="75" Y="233" />
+      <Position X="151" Y="64" />
+      <Position X="140" Y="141" />
+      <Position X="224" Y="226" />
+      <Position X="223" Y="31" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M360" Name="中央山脈" ImageUrl="mapdata/image/cyuou_sanmyaku.jpg" KeepSetDistance="138">
+    <DefCastle>
+      <Position X="113" Y="61" />
+    </DefCastle>
+    <Crystal>
+      <Position X="51" Y="48" />
+      <Position X="120" Y="39" />
+      <Position X="205" Y="76" />
+      <Position X="153" Y="130" />
+      <Position X="26" Y="198" />
+      <Position X="121" Y="221" />
+      <Position X="221" Y="215" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M370" Name="架橋2" ImageUrl="mapdata/image/kakehasi2.jpg">
+    <DefCastle>
+      <Position X="55" Y="126" />
+    </DefCastle>
+    <Crystal>
+      <Position X="57" Y="113" />
+      <Position X="106" Y="76" />
+      <Position X="166" Y="56" />
+      <Position X="128" Y="128" />
+      <Position X="192" Y="128" />
+      <Position X="160" Y="179" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M380" Name="人字2" ImageUrl="mapdata/image/hito2.jpg">
+    <DefCastle>
+      <Position X="160" Y="182" />
+    </DefCastle>
+    <Crystal>
+      <Position X="55" Y="210" />
+      <Position X="84" Y="148" />
+      <Position X="65" Y="71" />
+      <Position X="200" Y="41" />
+      <Position X="186" Y="123" />
+      <Position X="178" Y="185" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M390" Name="門型" ImageUrl="mapdata/image/mongata.png" KeepSetDistance ="188">
+    <DefCastle>
+      <Position X="148" Y="202" />
+    </DefCastle>
+    <Crystal>
+      <Position X="136" Y="199" />
+      <Position X="54" Y="221" />
+      <Position X="208" Y="164" />
+      <Position X="128" Y="128" />
+      <Position X="55" Y="79" />
+      <Position X="128" Y="39" />
+      <Position X="197" Y="47" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M400" Name="塹壕" ImageUrl="mapdata/image/zangou.png" KeepSetDistance ="148">
+    <DefCastle>
+      <Position X="211" Y="107" />
+    </DefCastle>
+    <Crystal>
+      <Position X="208" Y="164" />
+      <Position X="133" Y="159" />
+      <Position X="67" Y="161" />
+      <Position X="197" Y="104" />
+      <Position X="126" Y="93" />
+      <Position X="77" Y="73" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M410" Name="連橋（G4城）" ImageUrl="mapdata/image/renhasi.jpg" KeepSetDistance ="147">
+    <DefCastle>
+      <Position X="117" Y="214" />
+    </DefCastle>
+    <Crystal>
+      <Position X="100" Y="211" />
+      <Position X="224" Y="163" />
+      <Position X="156" Y="170" />
+      <Position X="51" Y="144" />
+      <Position X="200" Y="124" />
+      <Position X="100" Y="80" />
+      <Position X="170" Y="40" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M411" Name="連橋（D7城）" ImageUrl="mapdata/image/renhasi.jpg" KeepSetDistance ="124">
+    <DefCastle>
+      <Position X="199" Y="123" />
+    </DefCastle>
+    <Crystal>
+      <Position X="100" Y="211" />
+      <Position X="192" Y="104" />
+      <Position X="156" Y="170" />
+      <Position X="51" Y="144" />
+      <Position X="100" Y="80" />
+      <Position X="170" Y="40" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M420" Name="竜巣" ImageUrl="mapdata/image/ryusu.png">
+    <DefCastle>
+      <Position X="71" Y="184" />
+    </DefCastle>
+    <Crystal>
+      <Position X="40" Y="215" />
+      <Position X="81" Y="176" />
+      <Position X="192" Y="202" />
+      <Position X="217" Y="83" />
+      <Position X="181" Y="38" />
+      <Position X="56" Y="48" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M430" Name="中州" ImageUrl="mapdata/image/new_kuno-ra.png" KeepSetDistance ="115">
+    <DefCastle>
+      <Position X="180" Y="156" />
+    </DefCastle>
+    <Crystal>
+      <Position X="105" Y="51" />
+      <Position X="62" Y="96" />
+      <Position X="184" Y="104" />
+      <Position X="126" Y="125" />
+      <Position X="197" Y="159" />
+      <Position X="161" Y="194" />
+      <Position X="78" Y="158" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M440" Name="瓢箪2" ImageUrl="mapdata/image/hyoutan2.jpg">
+    <DefCastle>
+      <Position X="178" Y="79" />
+    </DefCastle>
+    <Crystal>
+      <Position X="84" Y="37" />
+      <Position X="64" Y="76" />
+      <Position X="209" Y="60" />
+      <Position X="134" Y="122" />
+      <Position X="61" Y="183" />
+      <Position X="183" Y="209" />
+      <Position X="218" Y="185" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M450" Name="群島2" ImageUrl="mapdata/image/guntou2.jpg">
+    <DefCastle>
+      <Position X="93" Y="66" />
+    </DefCastle>
+    <Crystal>
+      <Position X="88" Y="73" />
+      <Position X="161" Y="52" />
+      <Position X="117" Y="137" />
+      <Position X="75" Y="202" />
+      <Position X="177" Y="167" />
+    </Crystal>
+  </Map>
+
+  <Map MapID="M460" Name="十字（仮）" ImageUrl="mapdata/image/jyuji.png" KeepSetDistance ="124">
+    <DefCastle>
+      <Position X="65" Y="111" />
+    </DefCastle>
+    <Crystal>
+      <Position X="75" Y="108" />
+      <Position X="115" Y="66" />
+      <Position X="65" Y="171" />
+      <Position X="117" Y="192" />
+      <Position X="170" Y="181" />
+      <Position X="134" Y="118" />
+      <Position X="210" Y="106" />
+    </Crystal>
+  </Map>
+
+</MapList>
