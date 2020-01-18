@@ -775,6 +775,12 @@ var TSObeliskSimulator;
         App.prototype.onCanvasMap_MouseLeftDown = function (ev) {
             var app = App.getInstance();
             //app.updateCastleDistance();
+            //var cursorPos = app._sprCursor.position;
+            //var str = `X="${cursorPos.x}" Y="${cursorPos.y}"`;
+            // console.log(str);
+            // if(navigator.clipboard){
+            //     navigator.clipboard.writeText(str);
+            // }
             app.setBuilding();
         };
         App.prototype.updateCanvas = function () {
