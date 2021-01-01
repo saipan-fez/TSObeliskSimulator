@@ -19,17 +19,15 @@
 
   <Map MapID="M02" Name="アシロマ山麓" ImageUrl="mapdata/image/アシロマ山麓.png">
     <DefCastle>
-      <Position X="84" Y="177" />
+      <Position X="124" Y="195" />
     </DefCastle>
     <Crystal>
-      <Position X="42" Y="125" />
-      <Position X="89" Y="198" />
-      <Position X="205" Y="211" />
-      <Position X="126" Y="204" />
-      <Position X="147" Y="106" />
-      <Position X="177" Y="93" />
-      <Position X="173" Y="56" />
-      <Position X="65" Y="66" />
+      <Position X="122" Y="185" />
+      <Position X="67" Y="131" />
+      <Position X="192" Y="185" />
+      <Position X="187" Y="135" />
+      <Position X="48" Y="71" />
+      <Position X="122" Y="69" />
     </Crystal>
   </Map>
 
@@ -197,31 +195,28 @@
 
   <Map MapID="M14" Name="クダン丘陵" ImageUrl="mapdata/image/クダン丘陵.png">
     <DefCastle>
-      <Position X="176" Y="153" />
+      <Position X="90" Y="67" />
     </DefCastle>
     <Crystal>
-      <Position X="89" Y="61" />
-      <Position X="198" Y="47" />
-      <Position X="135" Y="91" />
-      <Position X="168" Y="120" />
-      <Position X="62" Y="195" />
-      <Position X="178" Y="179" />
+      <Position X="85" Y="73" />
+      <Position X="162" Y="53" />
+      <Position X="116" Y="136" />
+      <Position X="73" Y="200" />
+      <Position X="177" Y="167" />
     </Crystal>
   </Map>
 
   <Map MapID="M15" Name="クノーラ雪原" ImageUrl="mapdata/image/クノーラ雪原.png">
     <DefCastle>
-      <Position X="189" Y="166" />
+      <Position X="166" Y="80" />
     </DefCastle>
     <Crystal>
-      <Position X="194" Y="172" />
-      <Position X="41" Y="56" />
-      <Position X="151" Y="55" />
-      <Position X="208" Y="91" />
-      <Position X="38" Y="127" />
-      <Position X="120" Y="110" />
-      <Position X="28" Y="201" />
-      <Position X="145" Y="206" />
+      <Position X="133" Y="47" />
+      <Position X="80" Y="62" />
+      <Position X="149" Y="82" />
+      <Position X="147" Y="158" />
+      <Position X="199" Y="191" />
+      <Position X="78" Y="176" />
     </Crystal>
   </Map>
 
