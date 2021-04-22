@@ -47,7 +47,10 @@ for path in image_file_pathes:
     print(path)
 
     img     = imread(path)
-    clipped = img[520 : 720, 1354 : 1554]                                       # 地図部分のみ切り出し
+    h, w, c = img.shape
+    centerX = int(w / 2)
+    centerY = int(h / 2)
+    clipped = img[centerY - 200 : centerY, centerX + 74 : centerX + 274]        # 地図部分のみ切り出し(200x200)
     zoomed  = cv2.resize(clipped, (256, 256), interpolation = cv2.INTER_CUBIC)  # 256x256に拡大
 
     imwrite(new_path, zoomed)
