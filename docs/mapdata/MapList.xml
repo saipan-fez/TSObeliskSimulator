@@ -103,18 +103,17 @@
     </Crystal>
   </Map>
 
-  <Map MapID="M08" Name="ウォーロック古戦場跡" ImageUrl="mapdata/image/ウォーロック古戦場跡.png">
+  <Map MapID="M08" Name="ウォーロック古戦場跡" ImageUrl="mapdata/image/ウォーロック古戦場跡.png" KeepSetDistance="155">
     <DefCastle>
-      <Position X="121" Y="215" />
+      <Position X="101" Y="39" />
     </DefCastle>
     <Crystal>
-      <Position X="117" Y="182" />
-      <Position X="115" Y="168" />
-      <Position X="83" Y="132" />
-      <Position X="124" Y="129" />
-      <Position X="166" Y="121" />
-      <Position X="133" Y="86" />
-      <Position X="128" Y="72" />
+      <Position X="177" Y="193" />
+      <Position X="180" Y="95" />
+      <Position X="209" Y="46" />
+      <Position X="93" Y="48" />
+      <Position X="33" Y="141" />
+      <Position X="77" Y="156" />
     </Crystal>
   </Map>
 
@@ -292,15 +291,15 @@
 
   <Map MapID="M21" Name="シディット水域" ImageUrl="mapdata/image/シディット水域.png">
     <DefCastle>
-      <Position X="159" Y="182" />
+      <Position X="79" Y="83" />
     </DefCastle>
     <Crystal>
-      <Position X="179" Y="186" />
-      <Position X="52" Y="207" />
-      <Position X="83" Y="150" />
-      <Position X="64" Y="69" />
-      <Position X="187" Y="123" />
-      <Position X="198" Y="41" />
+      <Position X="98" Y="93" />
+      <Position X="167" Y="58" />
+      <Position X="176" Y="195" />
+      <Position X="47" Y="141" />
+      <Position X="89" Y="205" />
+      <Position X="199" Y="118" />
     </Crystal>
   </Map>
 
